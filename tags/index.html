@@ -4,6 +4,10 @@ title: Tags
 permalink: /tags/
 ---
 
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% endif %}
+
 <div class="tag-index">
   <ul>
     {% for tag in site.tags %}
