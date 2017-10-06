@@ -7,10 +7,17 @@ layout: default
 {% endif %}
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1>
+        {% if post.link %}
+        <a href="{{ post.link }}">
+        {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        {% endif %}
+          {{ post.title }}
+        </a>
+      </h1>
 
       <div class="entry">
         {{ post.excerpt }}
@@ -19,4 +26,21 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+</div>
+
+<div class="pagination">
+  <span class="pagination-prev">
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
+       Previous
+      </a>
+    {% endif %}
+  </span>
+  <span class="pagination-next">
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
+        Next
+      </a>
+    {% endif %}
+  </span>
 </div>
