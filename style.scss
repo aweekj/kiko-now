@@ -462,6 +462,51 @@ nav {
   }
 }
 
+// Tags
+.tags > .label {
+  > li:before {
+    content: "";
+  }
+
+  > li {
+    margin: 0;
+    font-size: $small-font-size;
+    display: inline;
+
+    > a {
+      display: inline-block;
+      margin: 1px;
+      color: $tag-index-label-color;
+      background-color: $tag-index-label-background-color;
+      border-radius: 3px;
+
+      span {
+        float: left;
+        padding: .5px 5px;
+
+        &.count {
+          background-color: $tag-index-count-background-color;
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+.tags > .tag {
+  a {
+    color: $base-color;
+  }
+  time {
+    color: $base-lighten-color;
+    font-size: $small-font-size;
+    font-weight: 300;
+    margin-left: 3px;
+  }
+}
+
+// Footer
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid $footer-border-color;

@@ -50,23 +50,27 @@ $selection-background-color: $oc-gray-1;
 $pagination-color: $oc-gray-6;
 $pagination-over-color: $oc-gray-7;
 
+$tag-index-label-color: $oc-white;
+$tag-index-label-background-color: $oc-gray-6;
+$tag-index-count-background-color: $oc-gray-7;
+
 $footer-border-color: $oc-gray-2;
 $footer-background-color: $oc-gray-1;
 
 // List
 $li-bottom-space: 0.4em;
-$li-bullets-width: 1.7em;
+$li-bullets-width: 1.4em;
 $li-line-height: 1.55;
 
 $ul-bullets-font: inherit;
 $ul-bullets-font-size: 1.4em;
 $ul-bullets-font-line-height: 1.2;
-$ul-bullets-right-space: .5em;
+$ul-bullets-right-space: .3em;
 
 $ol-bullets-font: inherit;
 $ol-bullets-font-size: 1em;
 $ol-bullets-font-line-height: inherit;
-$ol-bullets-right-space: .5em;
+$ol-bullets-right-space: .3em;
 
 $li-child-size-ratio: 0.95;
 
