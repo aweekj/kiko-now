@@ -20,6 +20,8 @@ navigation:
     url: /
   - name: About
     url: /about
+  - name: Tags
+    url: /tags
   - name: Theme
     url: https://github.com/AWEEKJ/jekyll-now
 

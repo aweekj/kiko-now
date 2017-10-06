@@ -1,0 +1,43 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<div class="tag-index">
+  <ul>
+    {% for tag in site.tags %}
+    <li>
+      <a href="#{{ tag[0] }}">
+        <span>{{ tag[0] }}</span>
+        <span class="count">{{ tag[1] | size }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% for tag in site.tags %}
+  <article>
+    <div class="tag-title" id="{{ tag[0] }}">
+      {{ tag[0] }}
+    </div>
+    <ul>
+      {% for post in tag[1] %}
+        {% if post.title != null %}
+          <li class="tag-post">
+            {% if post.link %}
+              <a href="{{ post.link }}">
+                <span class="tag-post-title">{{ post.title }}</span>
+              </a>
+            {% else %}
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                <span class="tag-post-title">{{ post.title }}</span>
+              </a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </article>
+{% endfor %}
