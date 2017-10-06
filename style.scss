@@ -432,9 +432,15 @@ nav {
 .pagination {
   font-weight: 300;
   padding: 2em 0;
+  display: block;
+
+  @include mobile {
+    font-size: $small-font-size;
+  }
 
   > .prev {
     float: left;
+    width: 50%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
@@ -445,6 +451,8 @@ nav {
 
   > .next {
     float: right;
+    text-align: right;
+    width: 50%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
