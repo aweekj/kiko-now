@@ -15,6 +15,14 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Flags below are optional
 #
 
+navigation:
+  - name: Blog
+    url: /
+  - name: About
+    url: /about
+  - name: Theme
+    url: https://github.com/AWEEKJ/jekyll-now
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
