@@ -5,12 +5,24 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
+  <div clsss="meta">
+    <span class="date">
+      {{ page.date | date: "%Y-%m-%d" }}
+    </span>
+
+    <ul class="tag">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="entry">
+    {{ content }}
   </div>
 
   <div class="pagination">

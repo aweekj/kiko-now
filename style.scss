@@ -267,11 +267,6 @@ img {
   max-width: none;
 }
 
-.date {
-  font-style: italic;
-  color: $oc-gray-6;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $selection-color;
@@ -418,6 +413,39 @@ nav {
 }
 
 .post {
+  h1 {
+    margin-bottom: .1em;
+  }
+
+  .date {
+    font-weight: 300;
+    font-size: $small-font-size;
+    color: $base-lighten-color;
+    margin-right: 3px;
+  }
+
+  .tag {
+    display: inline;
+    font-weight: 300;
+    font-size: $small-font-size;
+
+    li:before {
+      content: '';
+    }
+
+    li {
+      display: inline;
+      margin: 0;
+
+      > a {
+        margin: 3px 3px 3px 0;
+        padding: .5px 4px;
+        color: $tag-index-label-color;
+        background-color: $tag-index-label-background-color;
+        border-radius: 3px;
+      }
+    }
+  }
 
   .comments {
     margin-top: 10px;
@@ -484,6 +512,7 @@ nav {
   > li {
     margin: 0;
     font-size: $small-font-size;
+    font-weight: 300;
     display: inline;
 
     > a {
@@ -519,7 +548,6 @@ nav {
 }
 
 // Footer
-
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid $footer-border-color;
