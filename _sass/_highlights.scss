@@ -1,9 +1,9 @@
 pre, code {
   font-family: $code-font;
-  font-size: 95%;
 }
 
 code.highlighter-rouge {
+  font-size: 90%;
   color: $oc-indigo-9;
   background-color: $oc-gray-1;
   padding: .1em .2em;
@@ -11,6 +11,7 @@ code.highlighter-rouge {
 }
 
 pre.highlight {
+  font-size: $small-font-size;
   padding: .45em .45em .45em .625em;
   border: 1px solid $oc-gray-3;
   border-radius: 3px;
