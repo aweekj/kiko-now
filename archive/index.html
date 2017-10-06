@@ -1,0 +1,37 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+
+<ul class="archive-list">
+  {% if site.posts.size == 0 %}
+    <h2>No post found</h2>
+  {% endif %}
+  {% for post in site.posts %}
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+
+    <li class="archive-list-post">
+      {% if post.link %}
+      <a href="{{ post.link }}">
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+      {% endif %}
+        <span class="archive-list-post-title">
+          {{ post.title }}
+        </span>
+      </a>
+      <span class="archive-list-post-date">
+        <time>{{ post.date | date:"%b %d" }}</time>
+      </span>
+    </li>
+  {% endfor %}
+</ul>
