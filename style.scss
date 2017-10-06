@@ -15,13 +15,13 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: $base-font-size;
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font-family: $base-font;
+  color: $base-color;
+  line-height: 1.6;
 }
 
 .container {
@@ -32,10 +32,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -43,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   @include mobile {
     line-height: 1.4;
   }
+}
+
+h1, h2, h3, h5 {
+  font-weight: bold;
 }
 
 h1 {
@@ -61,42 +61,26 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: 20px;
+  color: $base-lighten-color;
+}
+
+h6 {
+  color: $base-lighten-color;
 }
 
 p {
+  color: $text-color;
   margin: 15px 0;
 }
 
 a {
-  color: $blue;
+  color: $link-color;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $link-color;
   }
-}
-
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
 }
 
 em, i {
@@ -107,8 +91,175 @@ strong, b {
   font-weight: bold;
 }
 
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $divider-color;
+  margin: 1.5em auto;
+}
+
+// Yeun's list style
+// https://gist.github.com/yeun/d824fc7b04b756508f4b0143535cec30
+
+ol, ul {
+  > li {
+    &:before {
+      position: absolute;
+      width: $li-bullets-width;
+      margin-left: -$li-bullets-width;
+      display: inline-block;
+      box-sizing: border-box;
+      text-align: right;
+    }
+  }
+}
+
+ul {
+  > li:before {
+    content: "\2022";
+    padding-right: $ul-bullets-right-space;
+    font-family: $ul-bullets-font;
+    font-size: $ul-bullets-font-size;
+    line-height: $ul-bullets-font-line-height;
+  }
+}
+
+ol {
+  counter-reset: section;
+
+  > li:before {
+    counter-increment: section;
+    content: counter(section) ".";
+    padding-right: $ol-bullets-right-space;
+    font-family: $ol-bullets-font;
+    font-size: $ol-bullets-font-size;
+    line-height: $ol-bullets-font-line-height;
+  }
+}
+
+ol, ul {
+  > li {
+    margin: 0 auto $li-bottom-space $li-bullets-width;
+    line-height: $li-line-height;
+
+    > ol,
+    > ul {
+      margin-top: $li-bottom-space;
+    }
+  }
+}
+
+li {
+  > ol,
+  > ul {
+    > li {
+      font-size: ($li-child-size-ratio * 1em);
+      margin: 0 auto ($li-bottom-space * $li-child-size-ratio) ($li-bullets-width * $li-child-size-ratio);
+    }
+  }
+}
+
+// Definition list
+dt {
+  float: left;
+  width: $dt-width;
+  overflow: auto;
+  clear: left;
+  text-align: right;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-bottom: $li-bottom-space;
+
+  @include mobile {
+    width: 120px;
+  }
+}
+
+dd {
+  margin-left: $dd-position;
+  margin-bottom: $li-bottom-space;
+
+  @include mobile {
+    margin-left: 140px;
+  }
+}
+
+// Table
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid $table-border-color;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: .25rem .5rem;
+  border: 1px solid $table-border-color;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: $table-background-color;
+}
+
+// Blockquote
+blockquote {
+  font-weight: 300;
+  padding: 0 0 0 1.4rem;
+  margin: 0 2rem 1rem 0;
+  border-left: .2em solid $blockquote-border-color;
+
+  p {
+    color: $blockquote-color;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Footnote
+a.footnote {
+  &,
+  .post p &,
+  .post ol &,
+  .post ul & {
+    margin: 0 3px;
+    padding: 0 2px;
+    font-size: $small-font-size;
+    text-align: center;
+    border: 1px solid $footnote-link-border-color;
+    border-radius: 2px;
+    -webkit-text-stroke: 0.25px;
+    -webkit-transition: 0.2s ease-out all;
+    text-decoration: none;
+
+    &:hover {
+      background: $footnote-link-background-over-color;
+    }
+  }
+}
+
+.footnotes {
+  border-top: 1px solid $divider-color;
+  font-size: $small-font-size;
+}
+
+// Image
 img {
+  display: block;
   max-width: 100%;
+  margin: 0 0 1em;
+  border-radius: 5px;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -118,17 +269,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $oc-gray-6;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $selection-color;
+  background: $selection-background-color;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $selection-color;
+  background: $selection-background-color;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -141,6 +292,20 @@ img {
 
 .clearfix:after {
     clear: both;
+}
+
+// Alignment
+.center {
+  text-align: center;
+
+  &-image {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.right {
+  text-align: right
 }
 
 /*********************/
@@ -253,14 +418,6 @@ nav {
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
 
   .comments {
     margin-top: 10px;
