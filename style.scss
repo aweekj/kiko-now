@@ -77,7 +77,7 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $link-color;
   }
@@ -429,11 +429,36 @@ nav {
   }
 }
 
+.pagination {
+  font-weight: 300;
+  padding: 2em 0;
+
+  > .prev {
+    float: left;
+    a {
+      color: $pagination-color;
+      &:hover, &:focus {
+        color: $pagination-over-color;
+      }
+    }
+  }
+
+  > .next {
+    float: right;
+    a {
+      color: $pagination-color;
+      &:hover, &:focus {
+        color: $pagination-over-color;
+      }
+    }
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $footer-border-color;
+  border-bottom: 1px solid $footer-border-color;
+  background-color: $footer-background-color;
 }
 
 footer {

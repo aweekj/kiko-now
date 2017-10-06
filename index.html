@@ -29,18 +29,18 @@ layout: default
 </div>
 
 <div class="pagination">
-  <span class="pagination-prev">
-    {% if paginator.previous_page %}
+  {% if paginator.previous_page %}
+    <span class="prev">
       <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
-       Previous
+        &#xE000; PREVIOUS
       </a>
-    {% endif %}
-  </span>
-  <span class="pagination-next">
-    {% if paginator.next_page %}
+    </span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <span class="next">
       <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
-        Next
+        NEXT &#xE001;
       </a>
-    {% endif %}
-  </span>
+    </span>
+  {% endif %}
 </div>
