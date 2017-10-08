@@ -28,22 +28,14 @@ layout: default
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
-        {% if page.previous.link %}
-          <a href="{{ page.previous.link }}">
-        {% else %}
           <a href="{{ page.previous.url }}">
-        {% endif %}
             &#xE000; {{ page.previous.title }}
           </a>
       </span>
     {% endif %}
     {% if page.next.url %}
       <span class="next" >
-        {% if page.next.link %}
-          <a href="{{ page.next.link }}">
-        {% else %}
           <a href="{{ page.next.url }}">
-        {% endif %}
             {{ page.next.title }} &#xE001;
           </a>
       </span>
