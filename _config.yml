@@ -25,7 +25,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Theme
-    url: https://github.com/AWEEKJ/jekyll-now
+    url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
 paginate: 5
@@ -37,7 +37,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: AWEEKJ/kiko-now
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -53,7 +53,7 @@ footer-text: © 2017 Kiko Now
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: kiko-now # <username>.disqus.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
