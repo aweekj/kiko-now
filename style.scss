@@ -313,11 +313,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: $oc-gray-9
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+ // border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -343,6 +344,7 @@ img {
 
 .site-info {
   float: left;
+  color:$oc-gray-0
 
   @include mobile {
     float: none;
@@ -353,17 +355,17 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $oc-gray-0;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: $base-font;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $oc-gray-3;
   font-size: 16px;
 
   @include mobile {
@@ -374,8 +376,9 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $base-font;
   font-size: 18px;
+  color:$oc-gray-3;
 
   @include mobile {
     float: none;
@@ -386,7 +389,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $oc-red-8;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
