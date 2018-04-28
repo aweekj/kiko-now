@@ -317,7 +317,8 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+ // border-bottom: 1px solid $lightGray;
+  background-color:$oc-gray-9;
 
   @include mobile {
     text-align: center;
@@ -353,17 +354,17 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $oc-gray-0;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: $base-font;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $0c-gray-3;
   font-size: 16px;
 
   @include mobile {
@@ -374,7 +375,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $base-font;
   font-size: 18px;
 
   @include mobile {
@@ -386,14 +387,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $oc-gray-3;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $link-color;
     }
   }
 }
