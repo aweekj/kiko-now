@@ -2,14 +2,9 @@
 
 本站仅为个人发布博文使用，用途主要为避免平台内容审查的线上存档。
 
-
-
 ### 建站程序版权
 
-本站建站程序来源于 [kiko-now](https://github.com/AWEEKJ/kiko-now)。博客模板文件版权继承并遵循 MIT License。
-
-如果想要建立类似的博客，请从 [kiko-now](https://github.com/AWEEKJ/kiko-now) Fork您自己的repository。
-
+本站建站程序来源于[kiko-now](https://github.com/AWEEKJ/kiko-now)。博客模板文件版权继承并遵循 MIT License。
 
 
 ### 文章版权
