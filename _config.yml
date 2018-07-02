@@ -28,8 +28,9 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+# Theme 링크는 사용 안함
+# name: Theme
+# url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
 paginate: 5

@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Sungjin Lim && Yoohwa Cho
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Working on...!
 
-### Contact me
+<!-- 
+코멘트 부분 입니다.
+공식(?) 이메일 계정을 만든 후 추가합시다.
+  ### Contact Us
 
-[email@domain.com](mailto:email@domain.com)
+ [email@domain.com](mailto:email@domain.com) -->
