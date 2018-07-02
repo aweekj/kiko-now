@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: Lim and Cho
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Make world better place with new AR technology
 
 #
 # Flags below are optional
@@ -53,7 +53,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2018 Lim and Cho
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
