@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 01 미팅노트
-tags: [미팅노트]
+tags: [미팅노트, 01]
 comments: true
 ---
 6월 28일 1회차 미팅노트
