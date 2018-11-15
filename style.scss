@@ -45,12 +45,6 @@ h1, h2, h3, h5 {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
-}
 
 h2 {
   font-size: 24px;
@@ -67,6 +61,13 @@ h4 {
 
 h6 {
   color: $base-lighten-color;
+}
+
+h1, .title {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
 }
 
 p {
@@ -410,7 +411,7 @@ nav {
 }
 
 .post {
-  h1 {
+  .title {
     margin-bottom: .1em;
   }
 
