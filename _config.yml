@@ -22,9 +22,9 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 navigation:
   - name: Blog
     url: /
-  - name: About
-    url: /about
   - name: Coldbell
+    url: /about
+  - name: Archive
     url: /archive
   - name: Tags
     url: /tags
