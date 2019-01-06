@@ -28,7 +28,7 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
+  - name: Github
     url: https://github.com/coldbell4869
 
 # Pagination
