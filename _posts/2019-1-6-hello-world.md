@@ -1,7 +1,6 @@
 ---
 layout: post
 title: First Post
-comments : true
 tags:
   - test
   - post
