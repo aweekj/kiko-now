@@ -24,7 +24,7 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Archive
+  - name: Coldbell
     url: /archive
   - name: Tags
     url: /tags
@@ -53,7 +53,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2019 Coldpaper coldbell
+footer-text: © 2019 Coldpaper, Coldbell
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
