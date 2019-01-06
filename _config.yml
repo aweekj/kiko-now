@@ -23,7 +23,7 @@ navigation:
   - name: Blog
     url: /
   - name: Coldbell
-    url: /about
+    url: /coldbell
   - name: Archive
     url: /archive
   - name: Tags
