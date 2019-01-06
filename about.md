@@ -1,13 +1,16 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Coldbell
+permalink: /coldbell/
 ---
 
-Coldpaper - Coldbell's blog
+Coldpaper  
+Coldbell's blog
 
-폐관수련중.
+삽질의 기록.
 
-### Contact me
+### Chanjong Park
 
-[coldbell4869@gmail.com](mailto:coldbell4869@gmail.com)
+[coldbell4869@gmail.com](mailto:coldbell4869@gmail.com)  
+[github.com/Coldbell4869](https://github.com/Coldbell4869)  
+[coldbell4869.github.io](https://coldbell4869.github.io)
