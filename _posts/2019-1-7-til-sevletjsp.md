@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIL]2019/01/07
+title: TIL 2019.01.07
 tags:
   - Java
   - post
