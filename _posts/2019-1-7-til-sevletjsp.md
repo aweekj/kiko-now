@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019.01.07
+title: TIL 2019-01-07
 tags:
   - Java
   - post
@@ -8,7 +8,8 @@ tags:
   - JSP
   - BootStrap
 ---
-# [TIL]2019/01/07 월요일
+
+TIL 2019-01-07
 
 ## Servlet 과 JSP.
 
