@@ -10,6 +10,7 @@ tags:
 ---
 
 Today I Learned
+
 TIL 2019-01-08
 
 ## HttpServlet API 와 WAS
@@ -72,8 +73,8 @@ service()메소드는 사용자가 요청할 때 호출하는 메소드.
   
   요청에 따라 http 메소드(POST,GET,DELETE 등등)를  
   요청대로 처리하기 위해서는 service()메소드 전체를 오버라이딩하지 않고  
-  doGet() 메소드나 doPOST() 메소드만 오버라이딩 할 필요가 있다.
-  [참고](http://jkkang.net/java/servlet/servlet-3.html)
+  doGet() 메소드나 doPOST() 메소드만 오버라이딩 할 필요가 있다.  ([참고](http://jkkang.net/java/servlet/servlet-3.html))  
+
 ---
 
 ### Servlet 작성 연습 스펙
