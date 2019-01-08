@@ -2,11 +2,7 @@
 layout: post
 title: TIL 2019-01-07
 tags:
-  - Java
-  - post
-  - Servlet
-  - JSP
-  - BootStrap
+  - TIL
 ---
 
 Today I Learned
