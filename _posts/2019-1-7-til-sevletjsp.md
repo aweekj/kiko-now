@@ -9,6 +9,7 @@ tags:
   - BootStrap
 ---
 
+Today I Learned
 TIL 2019-01-07
 
 ## Servlet 과 JSP.
@@ -196,8 +197,6 @@ http://www.inven.co.kr/board/wow/5280/6909
 로직 -> 검색 기본 : 검색어 없으면 모든 목록을 가지고 온다.  
 제목으로 검색하면 제목에 포함되어있는 글들을 가져온다.  
 이런식으로 로직을 적어주어야 함.
-
-
 
 **오늘의 숙제 : 미니 게시판을 프로토타이핑하고 Bootstrap을 이용해서 html , css 만들기**
 
