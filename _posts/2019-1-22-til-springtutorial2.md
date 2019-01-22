@@ -64,11 +64,9 @@ Bean을 주입한다.
 
 ---
 
-  ### 해봅시다.
+### 해보자.
 * HikariCP를 xml로 설정하여 사용.
 * HikariCP를 Java Config를 이용하여 사용.
-
-
 spEL 표현식 <--- 오늘 공부하기  
 
 https://jijs.tistory.com/entry/spring-%EC%84%A4%EC%A0%95-xml%EA%B3%BC-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EC%97%90%EC%84%9C-properties-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0?category=2216
@@ -80,3 +78,35 @@ hikariconfig에서 값을 얻어서 DataSourceConfig에 값을 넘겨줌.
 
 Spring에서 데이터베이스 프로그래밍을 하려면
 DataSource와 PlatformTransactionManager를 구현해야 한다.
+
+Spring의 트랜잭션 관리.
+
+---
+
+자동으로 끼워넣어주는 것.. Spring의 AOP
+
+AOP의 어드바이스(Advice) 개념.
+
+
+
+JoinPoint란?
+스프링에서 중요한 '위치' = 1:메소드가 시작하는 위치, 2: 예외가 발생하는 위치, 3: 메소드가 끝나는 위치
+joinpoint에는 Advice가 들어가고
+pointcut = joinpoint와 Advice를 맵핑한것을 pointcut이라고 함.
+Aspect = joinpoint,advice,pointcut을 아우르는 개념
+
+DB프로그래밍과 트랜잭션은 뗄래야 뗄 수 없는 관계.
+
+만약 서비스메소드가 끝날때마다 안녕이라고 출력하고싶다면?
+안녕을 출력하는 어드바이스를 만들어서 메소드가 끝날 때의 조인포인트에 포인트컷설정을 하면 된다. 
+
+-> 트랜잭션은 메소드의 시작과 끝, 예외와 관련있으니깐 프로그래머가 어드바이스 만들고 포인트컷설정하고 하지 않아도 트랜잭션이 함께 처리 가능..이것이 AOP다!
+
+---
+### 숙제
+> spEL 사용법에 대해 조사하시오 / spEL 표현식 공부하기.
+
+> platform 트랜잭션 매니저, 스프링 트랜잭션 설정 공부하기. 여러 문서 읽어보기.
+  (데이터소스 설정하는법이 여러가지이듯이 트랜잭션 설정하는 방법도 다양하다.)
+
+> 내일은 스프링 JDBC에 대해 공부할것이니깐 미리 알아보고 오기
