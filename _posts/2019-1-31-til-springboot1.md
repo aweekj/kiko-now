@@ -99,6 +99,7 @@ Model에 값을 저장 --> Thymeleaf 템플릿 (그 결과를 출력.)
 
 Spring JDBC 프로그래밍을 하고 싶다면?
 1. pom.xml 파일에 다음을 추가
+
 ```
 <dependency>
   <groupId>org.springframework.boot</groupId>
@@ -110,8 +111,6 @@ Spring JDBC 프로그래밍을 하고 싶다면?
   <artifactId>mysql-connector-java</artifactId>
   <version>5.1.47</version>
 </dependency>
-
-
 ```
 
 2. application.properties에 다음을 설정한다.
