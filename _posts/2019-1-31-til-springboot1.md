@@ -114,7 +114,7 @@ Spring JDBC 프로그래밍을 하고 싶다면?
 </dependency>
 ```
 
-1. application.properties에 다음을 설정한다.
+2. application.properties에 다음을 설정한다.
 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/connectdb?useUnicode=true&characterEncoding=UTF-8
