@@ -99,6 +99,7 @@ Model에 값을 저장 --> Thymeleaf 템플릿 (그 결과를 출력.)
 
 Spring JDBC 프로그래밍을 하고 싶다면?
 1. pom.xml 파일에 다음을 추가
+   
 
 ```
 <dependency>
@@ -113,7 +114,8 @@ Spring JDBC 프로그래밍을 하고 싶다면?
 </dependency>
 ```
 
-2. application.properties에 다음을 설정한다.
+1. application.properties에 다음을 설정한다.
+
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/connectdb?useUnicode=true&characterEncoding=UTF-8
 spring.datasource.username=connect
@@ -122,6 +124,7 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 ```
 
 3. 다음의 객체를 주입받아 DAO를 만든다.
+
 ```
 @Autowired
 NamedParameterJdbcTemplate jdbc;
