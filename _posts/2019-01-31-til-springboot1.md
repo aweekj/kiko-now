@@ -22,20 +22,20 @@ Dependencies : Devtools, web, lombok, thymeleaf
 
 ---
 
-스프링 부트는 내장 톰켓을 가지고 있다. 톰켓을 설치할 필요가 없다.
-이 내장 톰켓은 기본적으로 jsp 를 지원하지 않는다.
+스프링 부트는 내장 톰캣을 가지고 있다. 톰캣을 설치할 필요가 없다.
+이 내장 톰캣은 기본적으로 jsp 를 지원하지 않는다.
 스프링 쪽에서 지원하는 뷰기술은 thymeleaf 이다.
 
 jsp를 사용하고 싶으면 별도의 starter를 추가해야한다.
 ```
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
+<dependency>
+  <groupId>javax.servlet</groupId>
+  <artifactId>jstl</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.apache.tomcat.embed</groupId>
+  <artifactId>tomcat-embed-jasper</artifactId>
+</dependency>
 ```
 
 ### JSP에서 왜 자바코드를 사용하면 안될까?
