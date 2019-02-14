@@ -74,5 +74,25 @@ target - generated sources - java 폴더 아래에 Q* 소스가 생성된다.
 4) 메소드 구현시 QClass를 사용하여 구현한다.  
 기존의 Repository인터페이스가 ***RepositoryCustom를 상속받도록 한다.
 
+---
+jquery, bootstrap
 
+프론트 라이브러리도 maven, gradle을 추가할 수 있다.
 
+    <!-- webjar -->
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>jquery</artifactId>
+        <version>3.3.1-2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>bootstrap</artifactId>
+        <version>4.2.1</version>
+    </dependency>
+html문서 안에서 다음과 같이 사용
+
+여러분들만의 정적파일 : css, image ....
+
+ex> /resources/static/css/blog-home.css
+아래와 같이 접근
