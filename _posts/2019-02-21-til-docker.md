@@ -167,7 +167,7 @@ docker compose를 사용하려면 docker swarm을 사용한다.
 docker swarm init  
 
 ```
-docker swarm join --token SWMTKN-1-2vpfbchmrg56fycw8zl4jx33mwzprhmj6mwjn7zwkdjkszqr28-0x0w4f37b99wfkiz7sg9rbgnc 192.168.65.3:2377
+docker swarm join --token SWMTKN-1-0hbtxgg0swtc9rw4xz1frbg5ufi3tkobofmnq1upismy9o2j9u-dhbwi2oj15vm3bdmnvdfpp668 192.168.65.3:2377
 ```
 
 getstartedlab 이름의 서비스가 실행된다.
@@ -213,4 +213,6 @@ https://www.virtualbox.org/wiki/Downloads 를 설치
 mysql 의 경우 데이터가 저장되는데.... 이러한데이터는 컨테이너에 저장되면 안된다.
 
 ---
+
+
 
