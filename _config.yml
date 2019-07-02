@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Theme
-    url: https://github.com/danyu803/PK
+    url: https://www.laomm.com
 
 # Pagination
 paginate: 5
