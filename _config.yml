@@ -20,16 +20,16 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 # and URL Link(e.g. 'zTheme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
-    url: /
   - name: Coldbell
     url: /coldbell
-  - name: Archive
-    url: /archive
+  - name: Blog
+    url: /
   - name: Tags
     url: /tags
-  - name: Github
-    url: https://github.com/coldbell4869
+  - name: Archive
+    url: /archive
+  - name: Instagram
+    url: https://www.instagram.com/coldbellgram/?hl=ko
 
 # Pagination
 paginate: 5
@@ -43,7 +43,7 @@ footer-links:
   flickr:
   github: Coldbell4869
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
+  instagram: coldbellgram
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
