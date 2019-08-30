@@ -2,7 +2,7 @@
 layout: post 
 title: web api 기초
 tags:
-  - TIL
+  - TIL/Java
 ---
  Today I Learned
 
