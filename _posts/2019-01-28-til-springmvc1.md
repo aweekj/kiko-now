@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019-01-28
+title: Spring MVC(1)
 tags:
   - TIL
 ---
