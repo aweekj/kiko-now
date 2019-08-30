@@ -63,7 +63,8 @@ disqus: coldpaper
 google_analytics: UA-146770902-1
 
 # Or enter your Google Tag Manager web tracking code https://tagmanager.google.com (e.g. GTM-5RRMLA) to activate tracking
-google_tag: GTM-P7RHDCP
+google_tag:
+  ua: GTM-P7RHDCP
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
