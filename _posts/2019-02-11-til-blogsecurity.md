@@ -2,7 +2,7 @@
 layout: post 
 title: Spring Security
 tags:
-  - TIL
+- TIL/Java
 ---
 
 Today I Learned
