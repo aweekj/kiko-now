@@ -2,7 +2,7 @@
 layout: post
 title: Spring MVC(2)
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
