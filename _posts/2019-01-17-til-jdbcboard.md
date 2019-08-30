@@ -4,11 +4,6 @@ title: 게시판 기능
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-17
-
 ### 게시판 기능 구현
 
 답글의 답글을 달 때 ‘비용’의 제약이 발생한다.  
