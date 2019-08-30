@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019-01-10
+title: Cookie 와 Session
 tags:
   - TIL
 ---
