@@ -2,7 +2,7 @@
 layout: post
 title: 커넥션 풀 - HikariCP
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
