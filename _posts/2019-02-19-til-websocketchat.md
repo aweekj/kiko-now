@@ -4,10 +4,6 @@ title: Websocket 채팅
 tags:
   - TIL/Java
 ---
- Today I Learned
-
-TIL 2019-02-19
-
 Websocket을 이용한 채팅만들기
 
 1. pom.xml 에 라이브러리를 추가한다.
