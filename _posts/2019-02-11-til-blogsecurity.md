@@ -4,11 +4,6 @@ title: Spring Security
 tags:
 - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-02-11
-
 Spring Web MVC
 
 자동으로 Bean으로 등록된다.  
