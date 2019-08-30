@@ -2,7 +2,7 @@
 layout: post 
 title: REST?
 tags:
-  - TIL
+  - TIL/Java
 ---
  Today I Learned
 
