@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019-01-07
+title: Servlet / JSP / WAS
 tags:
   - TIL
 ---
