@@ -5,9 +5,7 @@ tags:
   - TIL/Java
 ---
 
-Today I Learned
-
-TIL 2019-01-07
+(Today I Learned) Servlet과 JSP
 
 ## Servlet 과 JSP.
 
