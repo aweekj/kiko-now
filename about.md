@@ -4,9 +4,6 @@ title: Coldbell
 permalink: /coldbell/
 ---
 
-### Coldpaper
-보고, 듣고, 먹고, 배우고, 구입한 것에 대한 소소한 기록.
-
-### Coldbell
-[coldbell4869@gmail.com](mailto:coldbell4869@gmail.com)  
+[coldbell4869@gmail.com](mailto:coldbell4869@gmail.com)
+[coldbellgram](https://www.instagram.com/coldbellgram/?hl=ko)
 [coldpaper.me](https://coldbell4869.github.io)
