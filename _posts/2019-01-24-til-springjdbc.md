@@ -4,11 +4,6 @@ title: Spring JDBC(1)
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-24
-
 >ComponentScan : @component 애노테이션을 찾아서  
   전부 다 spring bean(스프링이 관리하는 객체)으로 만들어버린다.  
 
