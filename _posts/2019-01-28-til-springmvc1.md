@@ -4,11 +4,6 @@ title: Spring MVC(1)
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-28
-
 ## Spring MVC
 #### 서블릿 : web.xml or @WebServlet(서블릿 스펙 3.0 이상)  
 - 서블릿은 PATH를 지정한다.
