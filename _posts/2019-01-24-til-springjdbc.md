@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019-01-24
+title: Spring JDBC
 tags:
   - TIL
 ---
