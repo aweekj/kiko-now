@@ -4,11 +4,6 @@ title: Cookie 와 Session
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-10
-
 ## Cookie 와 Session
 ### 쿠키
 쿠키는 커피숍 도장찍는 쿠폰 생각하면 됨.
