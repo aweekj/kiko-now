@@ -4,11 +4,6 @@ title: Servlet
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-08
-
 ## HttpServlet API 와 WAS
 
 브라우저에서 연결요청을 보내면 WAS에서는  
