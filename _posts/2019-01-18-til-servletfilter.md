@@ -4,10 +4,6 @@ title: 서블릿 필터
 tags:
   - TIL/Java
 ---
-Today I Learned
-
-TIL 2019-01-18
-
 ## 서블릿 필터
 
 예시 ) 마이페이지는 로그인한 사람만 접근할 수 있다.
