@@ -2,7 +2,7 @@
 layout: post
 title: 게시판 기능 
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
