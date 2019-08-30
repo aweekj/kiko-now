@@ -3,7 +3,7 @@ layout: post
 title: querydsl 과 Repository
 
 tags:
-  - TIL
+  - TIL/Java
 ---
 Today I Learned
 
