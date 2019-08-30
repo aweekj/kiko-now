@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring JDBC
+title: Spring JDBC(1)
 tags:
   - TIL
 ---
