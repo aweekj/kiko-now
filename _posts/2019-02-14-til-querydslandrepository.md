@@ -5,10 +5,6 @@ title: querydsl 과 Repository
 tags:
   - TIL/Java
 ---
-Today I Learned
-
-TIL 2019-02-14
-
 ## querydsl 과 Repository
 
 post 목록 가져오는데 where절 조건이 경우에 따라서 막 바뀌는 Dynamic Query.  
