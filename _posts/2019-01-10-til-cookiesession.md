@@ -2,7 +2,7 @@
 layout: post
 title: Cookie 와 Session
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
