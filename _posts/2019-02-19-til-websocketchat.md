@@ -2,7 +2,7 @@
 layout: post 
 title: Websocket 채팅
 tags:
-  - TIL
+  - TIL/Java
 ---
  Today I Learned
 
