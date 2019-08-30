@@ -1,6 +1,10 @@
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+  
+  {% if site.google_tag.ua %}
+  {% include gtag_head.html %}
+  {% endif %}
+  
   {% include meta.html %}
   {% include fonts.html %}
 
