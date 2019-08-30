@@ -1,6 +1,7 @@
 ---
 layout: post 
-title: TIL 2019-02-14
+title: querydsl 과 Repository
+
 tags:
   - TIL
 ---
