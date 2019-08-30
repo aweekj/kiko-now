@@ -1,2 +1,2 @@
-# https://coldpaper.me/
+# http://coldpaper.me/
 Coldpaper blog
