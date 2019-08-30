@@ -4,11 +4,6 @@ title: 커넥션 풀 - HikariCP
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-15
-
 ### 지금까지의 DB접속 절차
 
 1. DB접속 // 커넥션 연결할 때 비용이 많이 발생한다… 오버헤드가 많이 발생한다.
