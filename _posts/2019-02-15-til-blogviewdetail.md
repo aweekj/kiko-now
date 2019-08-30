@@ -4,10 +4,6 @@ title: web api 기초
 tags:
   - TIL/Java
 ---
- Today I Learned
-
-TIL 2019-02-15
-
 # web api 기초
 
 1. post방식에서 csrf끄는 방법  
