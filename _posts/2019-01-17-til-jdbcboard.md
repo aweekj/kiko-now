@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2019-01-17
+title: 게시판 기능 
 tags:
   - TIL
 ---
