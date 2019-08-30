@@ -2,7 +2,7 @@
 layout: post
 title: 트랜잭션
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
