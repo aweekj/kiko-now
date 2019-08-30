@@ -2,7 +2,7 @@
 layout: post
 title: Spring JDBC(1)
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
