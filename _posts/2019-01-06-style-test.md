@@ -3,7 +3,6 @@ layout: post
 title: "A Full and Comprehensive Style Test"
 tags:
   - test
-  - post
 ---
 
 ### Ordered List
