@@ -4,11 +4,6 @@ title: Spring JDBC(2)
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-25
-
 어제 : Spring JDBC로 게시판 구현하기  
 
 DBMS 자체에 접속을 하는것은 JDBC를 사용한다.  
