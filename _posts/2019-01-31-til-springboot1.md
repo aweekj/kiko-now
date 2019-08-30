@@ -4,11 +4,6 @@ title: Spring Boot
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-31
-
 https://start.spring.io
 
 Spring boot 프로젝트를 시작할 수 있다.
