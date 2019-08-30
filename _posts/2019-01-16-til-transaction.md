@@ -4,11 +4,6 @@ title: 트랜잭션
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-16
-
 ## 트랜잭션
 
 만약 출금기능을 만든다면?  
