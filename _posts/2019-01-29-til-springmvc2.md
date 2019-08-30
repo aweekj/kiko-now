@@ -4,11 +4,6 @@ title: Spring MVC(2)
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-29
-
 SpringMVC 이용, 기존 게시판 리팩토링작업중.
 
 ### Lombok
