@@ -2,7 +2,6 @@
 layout: post
 title: First Post
 tags:
-  - test
   - post
 ---
 
