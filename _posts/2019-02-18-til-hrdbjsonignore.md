@@ -4,10 +4,6 @@ title: REST?
 tags:
   - TIL/Java
 ---
- Today I Learned
-
-TIL 2019-02-18
-
 ## REST?
 https://meetup.toast.com/posts/92  
 
