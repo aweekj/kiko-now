@@ -4,11 +4,6 @@ title: 스프링 튜토리얼(2)
 tags:
   - TIL/Java
 ---
-
-Today I Learned
-
-TIL 2019-01-22
-
 ## Java Config 개념 익히기
 
 스프링은 아래의 기술을 적극적으로 사용한다.  
