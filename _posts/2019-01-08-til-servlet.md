@@ -2,7 +2,7 @@
 layout: post
 title: Servlet
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
