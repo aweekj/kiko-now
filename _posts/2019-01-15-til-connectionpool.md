@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Connection Pool - HikariCP
+title: 커넥션 풀 - HikariCP
 tags:
   - TIL
 ---
