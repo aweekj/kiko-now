@@ -2,7 +2,7 @@
 layout: post
 title: Servlet / JSP / WAS
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
