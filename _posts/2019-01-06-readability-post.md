@@ -3,7 +3,6 @@ layout: post
 title: "Testing Readability with a Bunch of Text"
 tags:
   - test
-  - post
 ---
 
 A ton of text to test readability.
