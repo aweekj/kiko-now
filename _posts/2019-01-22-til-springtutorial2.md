@@ -2,7 +2,7 @@
 layout: post
 title: 스프링 튜토리얼(2)
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
