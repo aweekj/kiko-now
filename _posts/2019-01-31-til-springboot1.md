@@ -2,7 +2,7 @@
 layout: post
 title: Spring Boot
 tags:
-  - TIL
+  - TIL/Java
 ---
 
 Today I Learned
