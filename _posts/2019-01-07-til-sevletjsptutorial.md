@@ -4,9 +4,6 @@ title: Servlet / JSP / WAS
 tags:
   - TIL/Java
 ---
-
-(Today I Learned) Servlet과 JSP
-
 ## Servlet 과 JSP.
 
 
