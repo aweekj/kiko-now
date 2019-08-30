@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: REST?
+title: REST
 tags:
   - TIL/Java
 ---
