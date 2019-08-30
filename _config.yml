@@ -62,6 +62,9 @@ disqus: coldpaper
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-146770902-1
 
+# Or enter your Google Tag Manager web tracking code https://tagmanager.google.com (e.g. GTM-5RRMLA) to activate tracking
+google-tag-manager: GTM-P7RHDCP
+
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url:
