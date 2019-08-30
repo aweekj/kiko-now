@@ -1,2 +1,2 @@
-# https://coldbell4869.github.io/
+# https://coldpaper.me/
 Coldpaper blog
