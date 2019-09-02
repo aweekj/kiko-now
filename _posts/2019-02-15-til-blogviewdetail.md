@@ -25,6 +25,7 @@ ToString 잘못 사용하면 Lazy Loading의
 ```
 
 3. 테스트를 위한 RestController를 만든다.  
+
 ```
 package my.examples.blog.controller.api;
 
