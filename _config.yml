@@ -22,16 +22,18 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 navigation:
   - name: Coldbell
     url: /coldbell
-#   - name: Blog
-#     url: /
+  - name: Blog
+    url: /
   - name: Tags
     url: /tags
   - name: Archive
     url: /archive
   - name: Instagram
     url: https://www.instagram.com/coldbellgram/?hl=ko
-#   - name: GA
-#     url: https://datastudio.google.com/open/1Bd3S6KJ5QQ5C11nkcgdhhbEs1M6zxWZk
+  - name: Facebook
+    url: https://facebook.com/coldbell
+  - name: GA
+    url: https://datastudio.google.com/open/1Bd3S6KJ5QQ5C11nkcgdhhbEs1M6zxWZk
 
 # Pagination
 paginate: 5
