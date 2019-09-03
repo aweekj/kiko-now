@@ -30,6 +30,8 @@ navigation:
     url: /archive
   - name: Instagram
     url: https://www.instagram.com/coldbellgram/?hl=ko
+  - name: GA
+    url: https://datastudio.google.com/s/owe76uWDtYk
 
 # Pagination
 paginate: 5
