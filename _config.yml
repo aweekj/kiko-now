@@ -24,6 +24,10 @@ navigation:
     url: /coldbell
   - name: Blog
     url: /
+      - name: blog2
+      url: /
+      - name: blog3
+      url: /
 #   - name: Tags
 #     url: /tags
   - name: Archive
