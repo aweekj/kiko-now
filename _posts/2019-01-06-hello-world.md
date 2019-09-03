@@ -20,5 +20,3 @@ tags:
 - [Wordpress 블로그](http://coldpaper.cafe24.com/) 때려침.
 - 가볍고 작은 블로그 지향.
 - 보고, 듣고, 먹고, 배우고, 구입한 것에 대한 소소한 포스팅.
-
-<strong>이거 되나?</strong>
