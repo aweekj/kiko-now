@@ -24,8 +24,8 @@ navigation:
     url: /coldbell
   - name: Blog
     url: /
-  - name: Tags
-    url: /tags
+#   - name: Tags
+#     url: /tags
   - name: Archive
     url: /archive
   - name: Instagram
