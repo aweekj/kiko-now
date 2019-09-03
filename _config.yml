@@ -32,6 +32,8 @@ navigation:
     url: https://www.instagram.com/coldbellgram/?hl=ko
   - name: Facebook
     url: https://facebook.com/coldbell
+  - name: Naver
+    url: https://naver.com
   - name: GA
     url: https://datastudio.google.com/open/1Bd3S6KJ5QQ5C11nkcgdhhbEs1M6zxWZk
 
