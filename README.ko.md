@@ -33,7 +33,7 @@
 
 `/_posts/2017-10-08-hello-world.md` 파일을 수정하여 첫번째 글을 작성해보세요. `/_posts/2016-08-14-style-test-ko.md`의 스타일 적용법과 [적용 결과]((https://aweekj.github.io/kiko-now/style-test-ko/))를 참고하면 다양한 스타일을 적용할 수 있습니다.
 
-![First Post](/images/first-post.png "First Post")
+![First Post](/images/post-screenshot.png "First Post")
 
 브라우저에서 새로운 글을 생성하여 작성할 수도 있습니다.`/_posts/`에서 + 아이콘을 눌러보세요. 두 가지만 주의하면 됩니다. 파일 이름을 `연도-월-일-제목.md` 로 만들고, 파일 상단의 Frontmatter 형식을 지켜주세요.
 ```
