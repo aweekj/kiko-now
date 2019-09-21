@@ -6,6 +6,8 @@
 
 **Kiko Now** 는 **[Jekyll Now](https://github.com/barryclark/jekyll-now)** 를 기반으로 만들어진 Jekyll 블로그 테마로, 간단한 기본 설정만으로도 블로그를 쉽게 만들 수 있도록 하는 **Jekyll Now** 의 철학을 따르고 있습니다.
 
+![Kiko Now Theme Screenshot](/images/kiko-now-theme-screenshot.png "Kiko Now Theme Screenshot")
+
 ## 간단히 시작해볼까요
 
 ### Step 1) 이 repository 를 본인의 repository 에 Fork 하세요.

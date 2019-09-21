@@ -6,6 +6,8 @@
 
 **Kiko Now** is a Jekyll theme based on **[Jekyll Now](https://github.com/barryclark/jekyll-now)**, following the philosophy of **Jekyll Now**, which makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
+![Kiko Now Theme Screenshot](/images/kiko-now-theme-screenshot.png "Kiko Now Theme Screenshot")
+
 ## Quick Start
 
 ### Step 1) Fork Jekyll Now to your User Repository
@@ -13,8 +15,6 @@
 Fork this repo, then rename the repository to yourgithubusername.github.io.
 
 Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
-
-![Step 1](/images/step1.gif "Step 1")
 
 ### Step 2) Customize and view your site
 
