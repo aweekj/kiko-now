@@ -10,7 +10,7 @@
 
 ## Quick Start
 
-### Step 1) Fork Jekyll Now to your User Repository
+### Step 1) Fork Kiko Now to your User Repository
 
 Fork this repo, then rename the repository to yourgithubusername.github.io.
 
