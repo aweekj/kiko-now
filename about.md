@@ -3,7 +3,7 @@ layout: page
 title: Coldbell
 permalink: /coldbell/
 ---
-![coldbell](https://avatars1.githubusercontent.com/u/45735092?s=400&v=4)
+![coldpaper_icon](https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/master/favicon.ico)
 
 [coldbell4869@gmail.com](mailto:coldbell4869@gmail.com)
 
