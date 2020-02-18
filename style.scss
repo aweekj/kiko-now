@@ -356,7 +356,8 @@ img {
   color: $darkGray;
   cursor: pointer;
   // font-family: $helveticaNeue;
-  font-family: $base-font;
+  font-family: $spoqaHanSans;
+  
   
   font-weight: 300;
   font-size: 28px;
@@ -377,7 +378,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   // font-family: $helveticaNeue;
-  font-family : $base-font;
+  font-family: $spoqaHanSans;
   font-size: 18px;
 
   @include mobile {
