@@ -20,15 +20,15 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 # and URL Link(e.g. 'zTheme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 🔔Coldbell
-    url: /coldbell
+  # - name: Coldbell
+    # url: /coldbell
   # - name: Blog
     # url: /
-  - name: 📋Blog
-    url: /tags
-  - name: 📚Notion
+  - name: 📋BLOG
+    url: /blog
+  - name: 📚WORKSPACE
     url: /archive
-  - name: 📷Instagram
+  - name: 📷COLDBELLGRAM
     url: https://www.instagram.com/coldbellgram/?hl=ko
 #   - name: Facebook
 #     url: https://facebook.com/coldbell

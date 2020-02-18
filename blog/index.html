@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Tags
-permalink: /tags/
+title: Blog
+permalink: /blog/
 ---
 
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
-<div class="tags">
+<div class="blog">
   <ul class="label">
-    {% for tag in site.tags %}
+    {% for tag in site.blog %}
     <li>
       <a href="#{{ tag[0] }}">
         <span>{{ tag[0] }}</span>
@@ -20,7 +20,7 @@ permalink: /tags/
     {% endfor %}
   </ul>
 
-  {% for tag in site.tags %}
+  {% for tag in site.blog %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2>
