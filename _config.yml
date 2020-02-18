@@ -22,13 +22,13 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 navigation:
   - name: 🔔Coldbell
     url: /coldbell
-  - name: Blog
-    url: /
-  - name: 📕Posts
+  # - name: Blog
+    # url: /
+  - name: 📋Blog
     url: /tags
-  - name: Archive
+  - name: 📚Notion
     url: /archive
-  - name: Instagram
+  - name: 📷Instagram
     url: https://www.instagram.com/coldbellgram/?hl=ko
 #   - name: Facebook
 #     url: https://facebook.com/coldbell
