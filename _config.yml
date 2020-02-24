@@ -20,13 +20,13 @@ avatar: https://raw.githubusercontent.com/Coldbell4869/coldbell4869.github.io/ma
 # and URL Link(e.g. 'zTheme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Coldbell
-    url: /coldbell
-#   - name: Blog
-#     url: /
-  - name: Tags
-    url: /tags
-  - name: Archive
+  # - name: Coldbell
+    # url: /coldbell
+  # - name: Blog
+    # url: /
+  - name: Blog
+    url: /blog
+  - name: Workspace
     url: /archive
   - name: Instagram
     url: https://www.instagram.com/coldbellgram/?hl=ko
@@ -59,7 +59,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2019 Coldpaper, Coldbell
+footer-text: © 2020 Coldpaper, Coldbell
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
