@@ -24,11 +24,11 @@ navigation:
     # url: /coldbell
   # - name: Blog
     # url: /
-  - name: BLOG
+  - name: Blog
     url: /blog
-  - name: WORKSPACE
+  - name: Workspace
     url: /archive
-  - name: COLDBELLGRAM
+  - name: Instagram
     url: https://www.instagram.com/coldbellgram/?hl=ko
 #   - name: Facebook
 #     url: https://facebook.com/coldbell
