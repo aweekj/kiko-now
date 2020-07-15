@@ -6,7 +6,7 @@
 name: Jokbalkiller
 
 # Short bio or description (displayed in the header)
-description: T_T
+description: 마 왕 족 발
 
 #
 # Flags below are optional
@@ -28,8 +28,9 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+  - name: Post
+    url: /post
+ 
 
 # Pagination
 paginate: 5
@@ -41,7 +42,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: jokbalkiller
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -60,11 +61,11 @@ footer-text: © 2017 Kiko Now
 disqus: # <username>.disqus.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-172758674-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://jokbalkiller.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
