@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Bottom Alert View (1)"
+tags: [alert]
+comments: true
+---
+
 #### Write By
 ![민경준]([jxxnnee (민경준) - velog](https://velog.io/@jxxnnee))
 
