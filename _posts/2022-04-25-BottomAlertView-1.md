@@ -96,15 +96,15 @@ open func setConstraint() {
 }
 
 fileprivate func retain(animated: Bool = true) {
-	self.setConstraint()
+    self.setConstraint()
 }
 ```
 <br/>
 다음으로는 `retain(animated:)`함수 안에 `contentView`를 띄우기 위한 코드를 작성하도록 합니다.
 
 ```swift
-filepriate func retain(animated: Bool = true) {
-	self.backgroundView.backgroundColor = self.backgroundColor
+fileprivate func retain(animated: Bool = true) {
+    self.backgroundView.backgroundColor = self.backgroundColor
     self.view.addSubview(self.backgroundView)
     self.backgroundView.snp.makeConstraints({
         $0.top.bottom.left.right.equalTo(self.view)
