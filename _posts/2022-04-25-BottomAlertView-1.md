@@ -86,7 +86,8 @@ override var contentView: AlertView {
 ![](https://velog.velcdn.com/images/jxxnnee/post/f659f228-3217-4a12-be5e-4042686996cd/image.png)
 
 <br/>
-그리하여 contentView는 override 하지 못하고, 대신 override할 함수를 만들어 retain() 함수가 동작할 때 같이 한번만 동작하도록 만들었습니다. 해당 함수에서는 contentView의 constraint에 관한 내용이 들어가 있어야 합니다.
+
+그리하여 `contentView`는 override 하지 못하고, 대신 override할 함수를 만들어 `retain()` 함수가 동작할 때 같이 한번만 동작하도록 만들었습니다. 해당 함수에서는 `contentView`의 constraint에 관한 내용이 들어가 있어야 합니다.
 
 ```swift
 public var contentView: AlertView = AlertView()
