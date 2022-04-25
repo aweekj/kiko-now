@@ -232,3 +232,6 @@ https://soulpark.wordpress.com/2012/06/15/why-presentmodalviewcontroller-not-wor
 viewDidLoad에서 present를 하면 동작하지 않는다는 사실을 처음 알았다... 역시 아직 공부가 아주 많이 많이 필요하다는걸 느꼈습니다... 😭
 
 다음 편에는 올라온 BottomAlert를 어떻게 해제 시키는지와 키보드가 올라왔을 때 대처에 대해서 적어 보도록 하겠습니다. 🤗 
+
+
+[전체 코드 - BottomAlertViewController](https://github.com/iO3S/io3s.github.io/blob/2d5bfe85846c2c6bc869636924d221e4e5e03cb8/files/BottomAlertViewController.swift)
