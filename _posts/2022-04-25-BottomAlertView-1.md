@@ -233,5 +233,7 @@ viewDidLoad에서 present를 하면 동작하지 않는다는 사실을 처음 �
 
 다음 편에는 올라온 BottomAlert를 어떻게 해제 시키는지와 키보드가 올라왔을 때 대처에 대해서 적어 보도록 하겠습니다. 🤗 
 
+[BottomAlertViewController.swift](https://gist.github.com/jxxnnee/88923392b8e7caa56f92b8975b7e3726)
+<script src="https://gist.github.com/jxxnnee/88923392b8e7caa56f92b8975b7e3726.js"></script>
 
-[전체 코드 - BottomAlertViewController](https://github.com/iO3S/io3s.github.io/blob/2d5bfe85846c2c6bc869636924d221e4e5e03cb8/files/BottomAlertViewController.swift)
+
