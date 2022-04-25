@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: iO3S 기술블로그
+name: iO3S 기술 블로그
 
 # Short bio or description (displayed in the header)
 description: Swift, iOS 또는 기타 기술 관련 지식 글을 작성하고 공유합니다. 
@@ -13,7 +13,7 @@ description: Swift, iOS 또는 기타 기술 관련 지식 글을 작성하고 �
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/aweekj/kiko-now/master/images/jekyll-logo.png
+avatar: 
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -28,8 +28,6 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
 paginate: 5
