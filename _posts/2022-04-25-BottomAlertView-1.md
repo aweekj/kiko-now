@@ -5,6 +5,8 @@ tags: [alert]
 comments: true
 ---
 
+<br/>
+
 ### Write By
 [민경준 - velog](https://velog.io/@jxxnnee)
 
@@ -16,6 +18,9 @@ RxSwift 6.0.0
 RxCocoa 6.0.0
 
 ***
+
+<br/>
+
 ## Declaration
 앱에서 커스텀한 `BottomAlertView`를 제작한 과정을 적어 봤습니다.
 해당 `View`를 통해 여러가지의 `Alert`를 띄울 수 있도록 모듈화 시킨 `View` 입니다.
