@@ -6,7 +6,7 @@ comments: true
 ---
 
 ### Write By
-[민경준]([jxxnnee (민경준) - velog](https://velog.io/@jxxnnee))
+[민경준 - velog](https://velog.io/@jxxnnee)
 
 ### Tool Info
 Xcode 13.3
