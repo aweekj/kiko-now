@@ -134,7 +134,7 @@ fileprivate func retain(animated: Bool = true) {
     
     /// contentView의 상단만 둥근 모양을 내기 위하여 
     /// topLeft, topRight만 radius값을 설정한다.
-    self.contentView.roundCorners(corners: [.topLeft, .topRight], radius: 14 - Size.ratioH)
+    self.contentView.roundCorners(corners: [.topLeft, .topRight], radius: 14)
     self.contentView.layoutIfNeeded()
     
     /// animation 효과를 줄지 여부에 따라 
