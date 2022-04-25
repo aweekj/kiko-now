@@ -15,7 +15,7 @@ SnapKit 5.0.1
 RxSwift 6.0.0
 RxCocoa 6.0.0
 
-*
+***
 ## Declaration
 앱에서 커스텀한 `BottomAlertView`를 제작한 과정을 적어 봤습니다.
 해당 `View`를 통해 여러가지의 `Alert`를 띄울 수 있도록 모듈화 시킨 `View` 입니다.
@@ -217,7 +217,7 @@ class ViewController: UIViewController {
 
 <br/>
 
-*
+***
 
 ### Reference
 https://soulpark.wordpress.com/2012/06/15/why-presentmodalviewcontroller-not-work-in-viewdidload/
