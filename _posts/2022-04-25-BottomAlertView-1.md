@@ -3,6 +3,8 @@ layout: post
 title: "Bottom Alert View (1)"
 tags: [alert]
 comments: true
+customjs:
+ - https://gist.github.com/jxxnnee/88923392b8e7caa56f92b8975b7e3726.js
 ---
 
 <br/>
@@ -234,6 +236,8 @@ viewDidLoad에서 present를 하면 동작하지 않는다는 사실을 처음 �
 다음 편에는 올라온 BottomAlert를 어떻게 해제 시키는지와 키보드가 올라왔을 때 대처에 대해서 적어 보도록 하겠습니다. 🤗 
 
 [BottomAlertViewController.swift](https://gist.github.com/jxxnnee/88923392b8e7caa56f92b8975b7e3726)
-<script src="https://gist.github.com/jxxnnee/88923392b8e7caa56f92b8975b7e3726.js"></script>
+{% for js in page.customjs %}
+<script async type="text/javascript" src="{{ js }}"></script>
+{% endfor %}
 
 
