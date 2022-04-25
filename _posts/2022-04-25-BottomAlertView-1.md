@@ -11,11 +11,11 @@ comments: true
 [민경준 - velog](https://velog.io/@jxxnnee)
 
 ### Tool Info
-Xcode 13.3
-Swift 5.6
-SnapKit 5.0.1
-RxSwift 6.0.0
-RxCocoa 6.0.0
+Xcode 13.3<br/>
+Swift 5.6<br/>
+SnapKit 5.0.1<br/>
+RxSwift 6.0.0<br/>
+RxCocoa 6.0.0<br/>
 
 ***
 
