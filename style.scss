@@ -547,13 +547,13 @@ nav {
 // Footer
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid $footer-border-color;
-  border-bottom: 1px solid $footer-border-color;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   background-color: $footer-background-color;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0px 0;
   text-align: center;
 
   p {
