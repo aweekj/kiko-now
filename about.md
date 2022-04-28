@@ -9,4 +9,4 @@ permalink: /about/
 
 ### Contact me
 
-[dev.kickbell@gmail.com](dev.kickbell@gmail.com)
+dev.kickbell@gmail.com
