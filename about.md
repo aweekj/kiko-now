@@ -4,8 +4,26 @@ title: About
 permalink: /about/
 ---
 
-Mathematical Science, KAIST. 
+### About me
+I'm an undergraduate students at KAIST, majoring Mathematical Science.
+
 My research intersts are: 
+
+Scientific machine learning (SciML)
+
+Partial Differential Equation
+
+Differential Geometry
+
+Bayesian method
+
+Information geometry
+
+Uncertainty Quantification
+
+
+
+
 ### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
