@@ -5,22 +5,25 @@ permalink: /about/
 ---
 
 ### About me
-I'm an undergraduate students at KAIST, majoring Mathematical Science.
+I'm an undergraduate student at KAIST, majoring Mathematical Science.
 
 My research intersts are: 
 
-Scientific machine learning (SciML)
+* Scientific machine learning (SciML) 
 
-Partial Differential Equation
+* Partial Differential Equation
 
-Differential Geometry
+* Differential Geometry
 
-Bayesian method
+* Bayesian method
 
-Information geometry
+* Information geometry
 
-Uncertainty Quantification
+* Uncertainty Quantification
 
+* Optimization
+
+* Inverse Problem
 
 
 
